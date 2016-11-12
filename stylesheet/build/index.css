@@ -7,10 +7,14 @@
     position: static !important;
     margin-top: 360px;
   }
+
+  .body {
+    background-position: 50% !important;
+  }
 }
 @media screen and (max-height: 2500px) and (min-height: 300px) and (min-width: 300px){
   .body {
-    background-position: 44% !important;
+    background-position: 50% !important;
   }
 }
 @media screen and (max-height: 500px) and (min-height: 300px) and (min-width: 420px) {
@@ -28,7 +32,7 @@
 @media screen and (max-height: 640px) and (min-height: 300px) and (min-width: 1024px) {
   footer {
     position: static !important;
-    margin-top: 260px !important;
+    /*margin-top: 260px !important;*/
   }
 }
 @media screen and (max-height: 900px) and (min-height: 620px) and (min-width: 1920px) {
@@ -55,7 +59,10 @@
     margin-left: 8px !important;
     width: 85px;
   }
+
 }
+
+
 @media screen and (min-width: 200px) and (max-width: 600px) {
   body div.container {
     padding-left: 0px;
@@ -117,11 +124,11 @@
   }
   body footer.footer {
     margin-bottom: 10px;
-    height: 150px;
+    /*height: 150px;*/
   }
   body footer.footer div.extern_links {
     margin: 0 auto;
-    width: 300px !important;
+    width: 330px !important;
   }
   body footer.footer div.extern_links p {
     font-size: 12px;
@@ -133,6 +140,9 @@
     height: 60px;
   }
 }
+
+
+
 @media screen and (min-width: 600px) and (max-width: 1024px) {
   body div.container .top-cols img.mail {
     height: 45px;
@@ -197,7 +207,10 @@
     height: 46px;
   }
   body footer.footer div.extern_links ul li .youtube {
-    height: 64px;
+    height: 46px;
+  }
+  body footer.footer div.extern_links ul li .patreon {
+    height: 46px;
   }
 }
 
@@ -206,6 +219,10 @@ body {
   background-attachment: fixed;
   background-size: cover;
   z-index: -1;
+}
+
+.parteon {
+  border-radius: 10px;
 }
 
 body {
@@ -301,4 +318,49 @@ body .footer .extern_links p {
 }
 body .footer .extern_links p a {
   color: #00316a;
+}
+
+
+
+@media screen and (min-width: 100px) and (max-width: 300px) {
+  body div.container {
+    padding-left: 0px;
+    padding-right: 0px;
+    height: 120px;
+    max-width: 600px;
+  }
+  body div.container div.col-600 {
+    margin-bottom: 41px;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  body div.container div.col-600 .top-cols {
+    margin-top: 31px;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  body div.container div.col-600 .top-cols p {
+    margin-bottom: 1.25em;
+    font-size: 9px;
+    line-height: 16px;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  body footer.footer {
+    margin-bottom: 10px;
+    /*height: 150px;*/
+  }
+  body footer.footer div.extern_links {
+    margin: 0 auto;
+    width: 250px !important;
+  }
+  body footer.footer div.extern_links p {
+    font-size: 12px;
+  }
+  body footer.footer div.extern_links ul li img {
+    height: 25px;
+  }
+  body footer.footer div.extern_links ul li .youtube {
+    height: 60px;
+  }
 }
