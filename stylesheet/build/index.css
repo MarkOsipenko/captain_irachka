@@ -429,3 +429,7 @@ body .footer .extern_links p a {
     height: 60px;
   }
 }
+``
+body footer.footer div.extern_links p.mail {
+  color: #615f61;
+}
