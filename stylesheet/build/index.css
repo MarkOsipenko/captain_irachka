@@ -1,4 +1,20 @@
+
+.logo-text {
+  font-family: Optima, Segoe, 'Segoe UI', Candara, Calibri, Arial, sans-serif;
+  font-size: 50px;
+  color: #585858;
+  margin-left: 5%;
+  margin-top: 20%;
+  vertical-align: middle;
+}
+
 @media screen and (max-height: 480px) {
+  .logo-text {
+    font-size: 30px;
+    margin-left: 5%;
+    margin-top: 20%;
+  }
+
   .logo-body {
     margin-top: 10px !important;
   }
@@ -12,36 +28,69 @@
     background-position: 50% !important;
   }
 }
+
 @media screen and (max-height: 2500px) and (min-height: 300px) and (min-width: 300px){
   .body {
     background-position: 50% !important;
   }
 }
+
 @media screen and (max-height: 500px) and (min-height: 300px) and (min-width: 420px) {
+  .logo-text {
+    font-size: 30px;
+    margin-left: 5%;
+    margin-top: 20%;
+  }
+
   footer {
     position: static !important;
     margin-top: 210px;
   }
 }
 @media screen and (max-height: 640px) and (min-height: 300px) and (min-width: 520px) {
+  .logo-text {
+    font-size: 30px;
+    margin-left: 5%;
+    margin-top: 20%;
+  }
+
   footer {
     position: static !important;
     margin-top: 450px;
   }
 }
+
 @media screen and (max-height: 640px) and (min-height: 300px) and (min-width: 1024px) {
+  .logo-text {
+    font-size: 50px;
+    margin-left: 5%;
+    margin-top: 20%;
+  }
+
   footer {
     position: static !important;
     /*margin-top: 260px !important;*/
   }
 }
 @media screen and (max-height: 900px) and (min-height: 620px) and (min-width: 1920px) {
+  .logo-text {
+    font-size: 50px;
+    margin-left: 5%;
+    margin-top: 20%;
+  }
+
   footer {
     position: static !important;
     margin-top: 320px !important;
   }
 }
 @media screen and (min-width: 317px) and (max-width: 335px) {
+  .logo-text {
+    font-size: 50px;
+    margin-left: 5%;
+    margin-top: 20%;
+  }
+
   body div.container div.col-600 div.mail-wrap {
     width: 90px !important;
   }
@@ -55,6 +104,12 @@
   }
 }
 @media screen and (min-width: 325px) and (max-width: 335px) {
+  .logo-text {
+    font-size: 50px;
+    margin-left: 5%;
+    margin-top: 20%;
+  }
+
   body div.container div.col-600 div.itmail-wrap {
     margin-left: 8px !important;
     width: 85px;
@@ -64,6 +119,12 @@
 
 
 @media screen and (min-width: 200px) and (max-width: 600px) {
+  .logo-text {
+    font-size: 25px;
+    margin-left: 5%;
+    margin-top: 20%;
+  }
+
   body div.container {
     padding-left: 0px;
     padding-right: 0px;
@@ -144,6 +205,12 @@
 
 
 @media screen and (min-width: 600px) and (max-width: 1024px) {
+  .logo-text {
+    font-size: 35px;
+    margin-left: 5%;
+    margin-top: 20%;
+  }
+
   body div.container .top-cols img.mail {
     height: 45px;
   }
@@ -215,7 +282,7 @@
 }
 
 body {
-  background-image: url("../../images/textures/texture1.jpg") ;
+  background-image: url("../../images/textures/texture1_n.jpg") ;
   background-attachment: fixed;
   background-size: cover;
   z-index: -1;
