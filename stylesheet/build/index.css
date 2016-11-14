@@ -2,7 +2,7 @@
 .logo-text {
   font-family: Optima, Segoe, 'Segoe UI', Candara, Calibri, Arial, sans-serif;
   font-size: 50px;
-  color: #585858;
+  color: #d4cfd1;
   margin-left: 5%;
   margin-top: 20%;
   vertical-align: middle;
@@ -386,8 +386,6 @@ body .footer .extern_links p {
 body .footer .extern_links p a {
   color: #00316a;
 }
-
-
 
 @media screen and (min-width: 100px) and (max-width: 300px) {
   body div.container {
