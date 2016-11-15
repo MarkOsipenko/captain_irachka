@@ -285,6 +285,7 @@ body {
   background-image: url("../../images/textures/texture1_n.jpg") ;
   background-attachment: fixed;
   background-size: cover;
+  min-height: 100%;
   z-index: -1;
 }
 
