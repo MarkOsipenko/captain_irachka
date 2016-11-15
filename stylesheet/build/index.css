@@ -8,7 +8,7 @@
   vertical-align: middle;
 }
 
-@media screen and (max-height: 480px) {
+@media only screen and (max-height: 480px) {
   .logo-text {
     font-size: 30px;
     margin-left: 5%;
@@ -29,13 +29,13 @@
   }
 }
 
-@media screen and (max-height: 2500px) and (min-height: 300px) and (min-width: 300px){
+@media only screen and (max-height: 2500px) and (min-height: 300px) and (min-width: 300px){
   .body {
     background-position: 50% !important;
   }
 }
 
-@media screen and (max-height: 500px) and (min-height: 300px) and (min-width: 420px) {
+@media only screen and (max-height: 500px) and (min-height: 300px) and (min-width: 420px) {
   .logo-text {
     font-size: 30px;
     margin-left: 5%;
@@ -47,7 +47,7 @@
     margin-top: 210px;
   }
 }
-@media screen and (max-height: 640px) and (min-height: 300px) and (min-width: 520px) {
+@media only screen and (max-height: 640px) and (min-height: 300px) and (min-width: 520px) {
   .logo-text {
     font-size: 30px;
     margin-left: 5%;
@@ -60,7 +60,7 @@
   }
 }
 
-@media screen and (max-height: 640px) and (min-height: 300px) and (min-width: 1024px) {
+@media only screen and (max-height: 640px) and (min-height: 300px) and (min-width: 1024px) {
   .logo-text {
     font-size: 50px;
     margin-left: 5%;
@@ -72,7 +72,7 @@
     /*margin-top: 260px !important;*/
   }
 }
-@media screen and (max-height: 900px) and (min-height: 620px) and (min-width: 1920px) {
+@media only screen and (max-height: 900px) and (min-height: 620px) and (min-width: 1920px) {
   .logo-text {
     font-size: 50px;
     margin-left: 5%;
@@ -84,7 +84,7 @@
     margin-top: 320px !important;
   }
 }
-@media screen and (min-width: 317px) and (max-width: 335px) {
+@media only screen and (min-width: 317px) and (max-width: 335px) {
   .logo-text {
     font-size: 50px;
     margin-left: 5%;
@@ -103,7 +103,7 @@
     width: 85px;
   }
 }
-@media screen and (min-width: 325px) and (max-width: 335px) {
+@media only screen and (min-width: 325px) and (max-width: 335px) {
   .logo-text {
     font-size: 50px;
     margin-left: 5%;
@@ -118,7 +118,7 @@
 }
 
 
-@media screen and (min-width: 200px) and (max-width: 600px) {
+@media only screen and (min-width: 200px) and (max-width: 600px) {
   .logo-text {
     font-size: 25px;
     margin-left: 5%;
@@ -204,7 +204,7 @@
 
 
 
-@media screen and (min-width: 600px) and (max-width: 1024px) {
+@media only screen and (min-width: 600px) and (max-width: 1024px) {
   .logo-text {
     font-size: 35px;
     margin-left: 5%;
@@ -252,7 +252,7 @@
     font-size: 16px;
   }
 }
-@media screen and (min-width: 1025px) and (max-width: 1919px) {
+@media only screen and (min-width: 1025px) and (max-width: 1919px) {
   body .container .col-600 {
     margin: 0 auto;
     height: 191px;
@@ -387,7 +387,7 @@ body .footer .extern_links p a {
   color: #00316a;
 }
 
-@media screen and (min-width: 100px) and (max-width: 300px) {
+@media only screen and (min-width: 100px) and (max-width: 300px) {
   body div.container {
     padding-left: 0px;
     padding-right: 0px;
