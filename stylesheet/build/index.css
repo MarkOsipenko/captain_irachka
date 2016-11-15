@@ -281,10 +281,20 @@
   }
 }
 
+
+body:before {
+  content: "";
+  display: block;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+
 body {
   background-image: url("../../images/textures/texture1_n.jpg") ;
   background-attachment: fixed;
-  /*background: url("../../images/textures/texture1_n.jpg") 100% 100% no-repeat;*/
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -293,6 +303,8 @@ body {
   height: 100%;
   z-index: -1;
 }
+
+
 
 .parteon {
   border-radius: 10px;
